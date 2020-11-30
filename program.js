@@ -36,6 +36,8 @@ $(function () {
       x.style.color = "red";
     }else if(b>=80){
       x.style.color = "orange";
+    }else if(b<=30){
+      x.style.color = "blue";
     }else{
       x.style.color = "black";
     }
