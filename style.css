@@ -1,11 +1,35 @@
-#title2 {
-  margin: 10px;
+body{
+  background-color: rgb(13, 19, 25);
+}
+#title1 {
   text-align: center;
-  background: rgb(200, 200, 200);
+  font-size: 40pt;
+  color: rgb(15, 143, 219);
+}
+#title1-5 {
+  text-align: center;
+  font-size: 20pt;
+  background-color: rgb(13, 19, 25);
+  color: rgb(255, 255, 255);
+  margin-bottom: 50pt;
+}
+
+#title2 {
+  margin-top: 50pt;
+  text-align: center;
+  font-size: 25pt;
+  background: rgb(255, 255, 255);
 }
 #content {
   text-align: center;
 }
+#box {
+
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
 #konzatu {
 /*
   border: 1px solid #000;
@@ -28,7 +52,20 @@
 .opt02 {
   font-size: 30pt;
 }
+#max {
+  font-size: 30pt;
+  }
+.opt03 {
+  font-size: 30pt;
+}
+#at {
+  margin-top: 100pt;
+  font-size: 20pt;
+  color: rgb(255, 255, 255);
+}
+
 .calbutton {
+  margin-top: 100px; 
   width: 60px;
   height: 60px;
   text-align: center;
@@ -40,10 +77,10 @@
   background: #faa;
 }
 
-#button {
+/*#button {
   padding: 10px;
   background: #aaf;
-}
+}*/
 
 #num1, #num2 {
   width: 60px;

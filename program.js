@@ -1,5 +1,6 @@
 $(function () {
-  var a, b, c;
+  var a, b;
+  var c = 20;　/*入場制限*/
 
   function save() {
     localStorage.setItem("Sample", JSON.stringify([a,b]));
@@ -11,7 +12,7 @@ $(function () {
     b = x[1];
     $("#ninzu").html(a);
     $("#konzatu").html(b);
-    $("#num").html(c);
+    $("#max").html(c);
   }
 
   $('.calbutton').click(function() {
@@ -26,9 +27,10 @@ $(function () {
       a = 0;
 
     }
-    b = a / 20 * 100;
+    b = Math.floor(a / c * 100);
     $("#ninzu").html(a);
     $("#konzatu").html(b);
+    $("#max").html(c);
     save();
   });
 
