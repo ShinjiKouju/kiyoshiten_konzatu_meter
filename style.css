@@ -1,11 +1,33 @@
-#hyouji {
+#title2 {
+  margin: 10px;
+  text-align: center;
+  background: rgb(200, 200, 200);
+}
+#content {
+  text-align: center;
+}
+#konzatu {
+/*
   border: 1px solid #000;
   width: 300px;
   height: 100px;
   line-height: 100px;
   text-align: center;
+*/
+  font-size: 60pt;
 }
-
+.tani {
+  font-size: 30pt;
+}
+.opt01 {
+  font-size: 30pt;
+}
+#ninzu {
+  font-size: 30pt;
+  }
+.opt02 {
+  font-size: 30pt;
+}
 .calbutton {
   width: 60px;
   height: 60px;
@@ -18,7 +40,7 @@
   background: #faa;
 }
 
-#button_box {
+#button {
   padding: 10px;
   background: #aaf;
 }
