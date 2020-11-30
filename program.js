@@ -32,7 +32,10 @@ $(function () {
 
     }
     b = Math.floor(a / c * 100);
-    if(b>=90){
+    if(b>100){
+      x.style.color = "red";
+      window.alert('入場制限を超えています!!');
+    }else if(b>=90){
       x.style.color = "red";
     }else if(b>=80){
       x.style.color = "orange";
