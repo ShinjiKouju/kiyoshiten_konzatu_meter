@@ -85,22 +85,19 @@ body{
   text-align: center;
 }
 #button_box {
-  /* padding: 10px;
-   background: #aaf;*/
+  padding: 0px;
+  /*  background: #aaf;*/
    vertical-align: auto;
    text-align: center;
  }
 .plus {
   text-align: center;
-  padding: 0px;
 }
 .minus {
   text-align: center;
-  padding: 0px;
 }
 .clearS {
   text-align: center;
-  padding: 0px;
 }
 
 #num1, #num2 {
