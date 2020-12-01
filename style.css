@@ -77,10 +77,20 @@ body{
   background: #faa;
 }
 
-/*#button {
-  padding: 10px;
-  background: #aaf;
-}*/
+#button {
+ /* padding: 10px;
+
+  background: #aaf;*/
+}
+.plus {
+  text-align: center;
+}
+.minus {
+  text-align: center;
+}
+.clearS {
+  text-align: center;
+}
 
 #num1, #num2 {
   width: 60px;
