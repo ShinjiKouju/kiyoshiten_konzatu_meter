@@ -77,35 +77,10 @@ body{
   background: #faa;
 }
 
-#button {
+/*#button {
   padding: 10px;
-  -webkit-appearance : none;
- /* background: #aaf;*/
-}
-.button1 {
-  -webkit-appearance : none;
-  width: 60px;
-  height: 60px;
-}
-.button2 {
-  -webkit-appearance : none;
-  width: 60px;
-  height: 60px;
-}
-.button3 {
-  -webkit-appearance : none;
-  width: 60px;
-  height: 60px;
-}
-.plus {
-  text-align: center;
-}
-.minus {
-  text-align: center;
-}
-.clearS {
-  text-align: center;
-}
+  background: #aaf;
+}*/
 
 #num1, #num2 {
   width: 60px;

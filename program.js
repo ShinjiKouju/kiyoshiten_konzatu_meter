@@ -1,7 +1,6 @@
 $(function () {
   var a, b;
   var c = 20;　/*入場制限*/
-  var x = document.getElementById("konzatu");
 
   function save() {
     localStorage.setItem("Sample", JSON.stringify([a,b]));
@@ -32,19 +31,7 @@ $(function () {
 
     }
     b = Math.floor(a / c * 100);
-    if(b>100){
-      x.style.color = "red";
-      window.alert('入場制限を超えています!!');
-    }else if(b>=90){
-      x.style.color = "red";
-    }else if(b>=80){
-      x.style.color = "orange";
-    }else if(b<=30){
-      x.style.color = "blue";
-    }else{
-      x.style.color = "black";
-    }
-
+    
     $("#ninzu").html(a);
     $("#konzatu").html(b);
     $("#max").html(c);
