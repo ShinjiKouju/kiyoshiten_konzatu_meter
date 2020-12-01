@@ -70,7 +70,7 @@ body{
   width: 60px;
   height: 60px;
   text-align: center;
-  color: #fff
+  background: #fff;
   font-size: 20pt;
 }
 
@@ -81,7 +81,6 @@ body{
 
 #button {
  /* padding: 10px;
-
   background: #aaf;*/
 }
 .plus {
