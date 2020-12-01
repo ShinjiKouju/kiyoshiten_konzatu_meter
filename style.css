@@ -65,10 +65,12 @@ body{
 }
 
 .calbutton {
+  -webkit-appearance : none;
   margin-top: 100px; 
   width: 60px;
   height: 60px;
   text-align: center;
+  color: #fff
   font-size: 20pt;
 }
 
