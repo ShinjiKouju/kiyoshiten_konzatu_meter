@@ -77,10 +77,10 @@ body{
   background: #faa;
 }
 
-/*#button {
+#button {
   padding: 10px;
-  background: #aaf;
-}*/
+ /* background: #aaf;*/
+}
 
 #num1, #num2 {
   width: 60px;
