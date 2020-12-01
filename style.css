@@ -87,7 +87,7 @@ body{
 #button_box {
   padding: 0px;
   /*  background: #aaf;*/
-   vertical-align: auto;
+   vertical-align: middle;
    text-align: center;
  }
 .plus {
