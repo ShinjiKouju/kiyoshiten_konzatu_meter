@@ -70,12 +70,13 @@ body{
   width: 60px;
   height: 60px;
   text-align: center;
+
   background: #fff;
   font-size: 20pt;
 }
 
 #num_box {
-  margin: auto;;
+  margin: 10px;
   background: #faa;
 }
 
