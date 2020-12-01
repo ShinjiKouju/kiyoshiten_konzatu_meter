@@ -70,8 +70,9 @@ body{
   width: 60px;
   height: 60px;
   text-align: center;
+  line-height: 0px;
   background: #fff;
-  font-size: 15pt;
+  font-size: 20pt;
 }
 
 #num_box {
