@@ -70,7 +70,6 @@ body{
   width: 60px;
   height: 60px;
   text-align: center;
-
   background: #fff;
   font-size: 20pt;
 }
@@ -85,14 +84,20 @@ body{
   background: #aaf;*/
   text-align: center;
 }
+#button_box {
+  /* padding: 10px;
+   background: #aaf;*/
+   vertical-align: auto;
+   text-align: center;
+ }
 .plus {
-  text-align: center;
+  text-align: middle;
 }
 .minus {
-  text-align: center;
+  text-align: middle;
 }
 .clearS {
-  text-align: center;
+  text-align: middle;
 }
 
 #num1, #num2 {
