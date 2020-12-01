@@ -82,6 +82,21 @@ body{
   -webkit-appearance : none;
  /* background: #aaf;*/
 }
+.button1 {
+  -webkit-appearance : none;
+  width: 60px;
+  height: 60px;
+}
+.button2 {
+  -webkit-appearance : none;
+  width: 60px;
+  height: 60px;
+}
+.button3 {
+  -webkit-appearance : none;
+  width: 60px;
+  height: 60px;
+}
 .plus {
   text-align: center;
 }
