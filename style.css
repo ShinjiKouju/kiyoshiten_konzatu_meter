@@ -91,13 +91,13 @@ body{
    text-align: center;
  }
 .plus {
-  text-align: middle;
+  text-align: auto;
 }
 .minus {
-  text-align: middle;
+  text-align: auto;
 }
 .clearS {
-  text-align: middle;
+  text-align: auto;
 }
 
 #num1, #num2 {
